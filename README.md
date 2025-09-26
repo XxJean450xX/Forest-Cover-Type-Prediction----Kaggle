@@ -53,16 +53,6 @@ The analysis was conducted in the following steps:
 
 ---
 
-## 👥 Team Roles  
-- **Coordinator:** Managed deadlines, report integration, and final submission.  
-- **Competition Researcher:** Summarized competition goals, dataset, and constraints.  
-- **Systems Analyst:** Identified elements and mapped interrelationships.  
-- **Complexity & Sensitivity Analyst:** Conducted sensitivity and chaos-related analysis.  
-- **Diagram Designer:** Created system diagrams and ensured proper labeling.  
-- **GitHub Manager:** Maintained repository structure and documentation.  
-
----
-
 ## 🔄 Repository Updates  
 This repository will continue to evolve as the course progresses.  
 - Each **workshop** will have its own folder and deliverables.  
