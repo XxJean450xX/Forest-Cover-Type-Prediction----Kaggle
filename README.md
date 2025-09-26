@@ -13,12 +13,12 @@ The workshop focuses on applying **systems thinking** and **engineering analysis
 
 ## Repository Structure  
 Workshop_1/
-│── README.md # Documentation of the workshop process
-│── report.pdf # Final report (in English, PDF format)
-│── diagrams/ # Folder containing system diagrams (architecture, flows, relationships)
-│ └── forest_system.png
-│── code/ # (Optional) Scripts or notebooks for sensitivity analysis or data exploration
-│ └── exploratory.ipynb
+ - README.md # Documentation of the workshop process
+ - report.pdf # Final report (in English, PDF format)
+ - diagrams/ # Folder containing system diagrams (architecture, flows, relationships)
+    - forest_system.png
+ - code/ # (Optional) Scripts or notebooks for sensitivity analysis or data exploration
+    - exploratory.ipynb
 
 
 ---
