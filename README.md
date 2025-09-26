@@ -3,7 +3,7 @@
 ## Workshop 1 — Systems Analysis & Design  
 ### Forest Cover Type Prediction (Kaggle Competition)  
 
-## 📌 Overview  
+## Overview  
 This repository contains the deliverables for **Workshop 1** of the *Systems Analysis & Design* course.  
 The selected competition is [Forest Cover Type Prediction](https://www.kaggle.com/competitions/forest-cover-type-prediction), a supervised classification problem where the task is to predict the type of forest cover (7 categories) based on cartographic variables such as elevation, slope, soil type, and distance to hydrology, roads, and fire points.  
 
@@ -11,7 +11,7 @@ The workshop focuses on applying **systems thinking** and **engineering analysis
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 Workshop_1/
 │── README.md # Documentation of the workshop process
 │── report.pdf # Final report (in English, PDF format)
@@ -23,7 +23,7 @@ Workshop_1/
 
 ---
 
-## 📝 Methodology  
+## Methodology  
 The analysis was conducted in the following steps:  
 
 1. **Competition Overview**  
@@ -46,14 +46,14 @@ The analysis was conducted in the following steps:
 
 ---
 
-## 📊 Deliverables  
+## Deliverables  
 - **Report (PDF):** Detailed systems analysis of the competition.  
 - **Diagrams:** Visual representations of system architecture, element relationships, and data flow.  
 - **GitHub Repository:** Centralized storage of all documents, code, and diagrams.  
 
 ---
 
-## 🔄 Repository Updates  
+## Repository Updates  
 This repository will continue to evolve as the course progresses.  
 - Each **workshop** will have its own folder and deliverables.  
 - The **README.md** will be updated to reflect new analyses and outcomes.  
@@ -61,12 +61,12 @@ This repository will continue to evolve as the course progresses.
 
 ---
 
-## 📅 Deadline  
+## Deadline  
 All deliverables for **Workshop 1** were submitted by **Saturday, September 27th, 2025 at 8:00 AM**, according to course policy.  
 
 ---
 
-## 📚 References  
+## References  
 - Kaggle: [Forest Cover Type Prediction](https://www.kaggle.com/competitions/forest-cover-type-prediction)  
 - Systems Engineering principles (course material).  
 - Additional references cited in the final report.  
