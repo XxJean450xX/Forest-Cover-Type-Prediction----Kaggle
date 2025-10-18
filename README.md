@@ -1,72 +1,53 @@
-# Forest-Cover-Type-Prediction----Kaggle
+# Forest Cover Type Prediction System
 
-## Workshop 1 — Systems Analysis & Design  
-### Forest Cover Type Prediction (Kaggle Competition)  
+This repository contains the conceptual design and analytical framework for a **chaos-aware machine learning system** developed to classify forest cover types in the **Roosevelt National Forest** dataset from Kaggle.  
+The work expands on prior systems analysis to design a **seven-layer architecture** that integrates ecological modeling, uncertainty quantification, and systems engineering principles for sustainable forest management applications.
 
-## Overview  
-This repository contains the deliverables for **Workshop 1** of the *Systems Analysis & Design* course.  
-The selected competition is [Forest Cover Type Prediction](https://www.kaggle.com/competitions/forest-cover-type-prediction), a supervised classification problem where the task is to predict the type of forest cover (7 categories) based on cartographic variables such as elevation, slope, soil type, and distance to hydrology, roads, and fire points.  
+## Overview
 
-The workshop focuses on applying **systems thinking** and **engineering analysis** to understand the dataset, relationships, complexity, sensitivity, and potential chaotic behaviors within the system.  
+The system processes **15,120 observations** across **56 cartographic features** to classify **seven distinct forest cover types** at a 30m × 30m spatial resolution.  
+It explicitly addresses the chaotic and nonlinear dynamics observed in forest ecosystems—such as elevation thresholds and aspect–elevation couplings—through mechanisms of **sensitivity control** and **uncertainty quantification**.
 
----
+## Key Features
 
-## Repository Structure  
-Workshop_1/
- - README.md # Documentation of the workshop process
- - report.pdf # Final report (in English, PDF format)
- - diagrams/ # Folder containing system diagrams (architecture, flows, relationships)
-    - forest_system.png
- - code/ # (Optional) Scripts or notebooks for sensitivity analysis or data exploration
-    - exploratory.ipynb
+- **Seven-layer pipeline architecture** ensuring modularity, scalability, and reproducibility  
+- **Feature engineering** that includes elevation binning, soil-type consolidation, and trigonometric encoding for aspect  
+- **Ensemble modeling** combining Random Forest, XGBoost, and LightGBM via weighted voting (expected 95.2% accuracy)  
+- **Dual-mode uncertainty quantification** distinguishing aleatoric (data) and epistemic (model) sources  
+- **Chaos and sensitivity control** through threshold detection and drift monitoring (Kullback–Leibler divergence, PSI)  
+- **MLOps-ready design** with FastAPI for real-time inference, Redis caching, MLflow tracking, and Kubernetes orchestration  
 
+## Technical Stack
 
----
+- **Language:** Python  
+- **Core Libraries:** NumPy, Pandas, scikit-learn, PyTorch, Optuna, PySpark  
+- **MLOps & Storage:** MLflow, PostgreSQL, S3, Grafana  
+- **APIs & Serving:** FastAPI, Uvicorn, NGINX  
+- **Visualization:** React + Plotly  
 
-## Methodology  
-The analysis was conducted in the following steps:  
+## Project Structure
 
-1. **Competition Overview**  
-   - Reviewed the Kaggle competition description.  
-   - Identified the dataset structure, number of variables, and prediction target.  
+```
+/data               -> Datasets and preprocessing scripts
+/notebooks          -> Exploratory and analysis notebooks
+/src
+ ├── ingestion      -> Data ingestion and validation
+ ├── features       -> Feature engineering modules
+ ├── models         -> Model training and ensemble integration
+ ├── monitoring     -> Drift and chaos detection
+ └── api            -> Deployment and inference endpoints
+/docs               -> Workshop reports and architecture diagrams
+```
 
-2. **Systemic Analysis**  
-   - Mapped the system’s **key elements** (inputs, processes, outputs, constraints).  
-   - Built relationship diagrams to visualize **data flows** and system boundaries.  
+## Authors
 
-3. **Complexity & Sensitivity**  
-   - Analyzed how changes in input parameters (e.g., elevation, soil type, slope) affect the outcome.  
-   - Highlighted potential sources of variability and conflicts in the system.  
+- **Nicolás Martínez Pineda**  
+- **Anderson Danilo Martínez Bonilla**  
+- **Gabriel Esteban Gutiérrez Calderón**  
+- **Jean Paul Contreras Talero**  
 
-4. **Chaos and Randomness**  
-   - Discussed possible non-linearities, feedback loops, and unpredictable behaviors in the dataset and modeling process.  
+**Universidad Distrital Francisco José de Caldas**  
 
-5. **Conclusions**  
-   - Summarized the main findings, emphasizing system strengths (large dataset, diversity of variables) and weaknesses (high dimensionality, correlation between variables).  
+## Reference
 
----
-
-## Deliverables  
-- **Report (PDF):** Detailed systems analysis of the competition.  
-- **Diagrams:** Visual representations of system architecture, element relationships, and data flow.  
-- **GitHub Repository:** Centralized storage of all documents, code, and diagrams.  
-
----
-
-## Repository Updates  
-This repository will continue to evolve as the course progresses.  
-- Each **workshop** will have its own folder and deliverables.  
-- The **README.md** will be updated to reflect new analyses and outcomes.  
-- The **commit history** will serve as a record of how the project has advanced over time.  
-
----
-
-## Deadline  
-All deliverables for **Workshop 1** were submitted by **Saturday, September 27th, 2025 at 8:00 AM**, according to course policy.  
-
----
-
-## References  
-- Kaggle: [Forest Cover Type Prediction](https://www.kaggle.com/competitions/forest-cover-type-prediction)  
-- Systems Engineering principles (course material).  
-- Additional references cited in the final report.  
+This work is based on *“Systems Analysis of Kaggle’s Forest Cover Type Prediction: Elements, Relationships, Sensitivity, and Chaos”* (Workshop #2 Report, 2025).
