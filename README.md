@@ -1,4 +1,5 @@
 # Forest Cover Type Prediction System
+## Workshop 2 — Systems Analysis & Design
 
 This repository contains the conceptual design and analytical framework for a **chaos-aware machine learning system** developed to classify forest cover types in the **Roosevelt National Forest** dataset from Kaggle.  
 The work expands on prior systems analysis to design a **seven-layer architecture** that integrates ecological modeling, uncertainty quantification, and systems engineering principles for sustainable forest management applications.
