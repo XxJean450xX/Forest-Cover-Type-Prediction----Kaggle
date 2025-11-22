@@ -8,7 +8,7 @@ The system advances from a research pipeline into an enterprise-grade ML archite
 
 ---
 
-## 🚀 **Overview**
+## **Overview**
 
 - Dataset: **15,120 observations**, **56 cartographic features**, **7 forest cover types**  
 - Architecture: **4-layer robust system** (replacing the earlier 7-layer pipeline)  
@@ -17,7 +17,7 @@ The system advances from a research pipeline into an enterprise-grade ML archite
 
 ---
 
-## 🧱 **Key Features**
+## **Key Features**
 
 ### **1. Robust 4-Layer Architecture**
 - **Data Gate:** ingestion, validation, drift detection, lineage tracking  
@@ -46,7 +46,7 @@ The system advances from a research pipeline into an enterprise-grade ML archite
 
 ---
 
-## 🧰 **Technical Stack**
+## **Technical Stack**
 
 **Languages & Libraries:**  
 Python, NumPy, Pandas, scikit-learn, LightGBM, XGBoost, Optuna, ONNX Runtime  
@@ -56,7 +56,7 @@ FastAPI, Redis, MLflow, PostgreSQL, S3, Kubernetes, NGINX, Grafana, Prometheus
 
 ---
 
-## 🏗️ **Architecture Summary**
+## **Architecture Summary**
 
 ### **1. Data Gate**
 - Schema validation  
@@ -85,7 +85,7 @@ FastAPI, Redis, MLflow, PostgreSQL, S3, Kubernetes, NGINX, Grafana, Prometheus
 
 ---
 
-## ⚠️ **Risk Register (Workshop 3)**
+## **Risk Register (Workshop 3)**
 
 | Risk | Mitigation | Monitoring |
 |------|------------|------------|
@@ -100,7 +100,7 @@ FastAPI, Redis, MLflow, PostgreSQL, S3, Kubernetes, NGINX, Grafana, Prometheus
 
 ---
 
-## 📅 **Project Management Plan**
+## **Project Management Plan**
 
 ### **Roles**
 - **Nicolás Martínez** — Architect & ML Engineer  
@@ -124,7 +124,7 @@ FastAPI, Redis, MLflow, PostgreSQL, S3, Kubernetes, NGINX, Grafana, Prometheus
 
 ---
 
-## 📁 **Repository Structure**
+## **Repository Structure**
 ~~~
 /data                  
 /notebooks             
@@ -141,7 +141,7 @@ FastAPI, Redis, MLflow, PostgreSQL, S3, Kubernetes, NGINX, Grafana, Prometheus
 
 ---
 
-## 👥 **Authors**
+## **Authors**
 - **Nicolás Martínez Pineda**  
 - **Anderson Danilo Martínez Bonilla**  
 - **Gabriel Esteban Gutiérrez Calderón**  
