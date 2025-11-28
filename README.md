@@ -563,25 +563,43 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📄 License
+## 👥 Team Roles
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Development Team
+
+**Nicolás Martínez Pineda** - [GitHub](https://github.com/nikkaoyy)
+- *Role*: Project Lead & Machine Learning Engineer
+- *Responsibilities*: LightGBM model development, chaos-aware uncertainty quantification, feature engineering pipeline, cellular automata simulation
+
+**Anderson Danilo Martínez Bonilla**
+- *Role*: Systems Architect & DevOps Engineer
+- *Responsibilities*: Architecture design, API deployment (FastAPI + Docker), production monitoring, CI/CD pipeline
+
+**Gabriel Esteban Gutiérrez Calderón**
+- *Role*: Data Engineer & Quality Assurance
+- *Responsibilities*: Data validation, circuit breaker implementation, drift detection, testing framework (pytest)
+
+**Jean Paul Contreras Talero**
+- *Role*: Research Analyst & Documentation Lead
+- *Responsibilities*: Academic integration, theoretical foundations, chaos theory analysis, documentation
+
+### Collaborative Work
+This project follows an **Agile-Kanban** methodology with rotating pair programming sessions. All team members contributed to code reviews, testing, and documentation refinement.
 
 ---
-
-## 📧 Contact
-
-**Authors**:
-- Nicolás Martínez Pineda - [GitHub](https://github.com/nikkaoyy)
-- Anderson Danilo Martínez Bonilla
-- Gabriel Esteban Gutiérrez Calderón
-- Jean Paul Contreras Talero
 
 **Institution**: Universidad Distrital Francisco José de Caldas
 
 **Course**: Systems Analysis and Design
 
 **Project Year**: 2025-3
+
+---
+
+---
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
