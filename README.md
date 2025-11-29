@@ -11,7 +11,7 @@
 This repository contains a complete machine learning solution for the [Forest Cover Type Prediction Kaggle competition](https://www.kaggle.com/competitions/forest-cover-type-prediction), featuring chaos detection, explainability tools, and production deployment patterns.
 
 **Academic Context**: This project is part of the **Systems Analysis and Design** course at Universidad Distrital Francisco José de Caldas.
-**Academic Context**: This project is part of the **Systems Analysis and Design** course at Universidad Distrital Francisco José de Caldas. For the complete architectural analysis, quality frameworks, and theoretical foundations, see the [Academic Life Repository](https://github.com/nikkaoyy/Academic-Life).
+
 
 ---
 
@@ -567,7 +567,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ### Development Team
 
-**Nicolás Martínez Pineda** - [GitHub](https://github.com/nikkaoyy)
+**Nicolás Martínez Pineda**
 - *Role*: Project Lead & Machine Learning Engineer
 - *Responsibilities*: LightGBM model development, chaos-aware uncertainty quantification, feature engineering pipeline, cellular automata simulation
 
