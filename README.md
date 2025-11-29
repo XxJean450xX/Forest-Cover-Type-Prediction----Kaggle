@@ -10,12 +10,12 @@
 
 This repository contains a complete machine learning solution for the [Forest Cover Type Prediction Kaggle competition](https://www.kaggle.com/competitions/forest-cover-type-prediction), featuring chaos detection, explainability tools, and production deployment patterns.
 
-📚 **Academic Context**: This project is part of the **Systems Analysis and Design** course at Universidad Distrital Francisco José de Caldas.
-📚 **Academic Context**: This project is part of the **Systems Analysis and Design** course at Universidad Distrital Francisco José de Caldas. For the complete architectural analysis, quality frameworks, and theoretical foundations, see the [Academic Life Repository](https://github.com/nikkaoyy/Academic-Life).
+**Academic Context**: This project is part of the **Systems Analysis and Design** course at Universidad Distrital Francisco José de Caldas.
+**Academic Context**: This project is part of the **Systems Analysis and Design** course at Universidad Distrital Francisco José de Caldas. For the complete architectural analysis, quality frameworks, and theoretical foundations, see the [Academic Life Repository](https://github.com/nikkaoyy/Academic-Life).
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -32,22 +32,22 @@ This repository contains a complete machine learning solution for the [Forest Co
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project implements a **production-grade LightGBM model** to predict forest cover types from cartographic variables. The system achieves **high accuracy** with explicit uncertainty quantification and chaos detection near ecological transition zones.
 
 ### What Makes This Different?
 
-- ✅ **LightGBM Optimization**: Fast, efficient gradient boosting with optimal hyperparameters
-- ✅ **Chaos-Aware Modeling**: Detects ecological thresholds (2400m, 2800m, 3200m) and amplifies uncertainty 2× near transition zones
-- ✅ **Uncertainty Quantification**: Explicit confidence scoring with threshold proximity detection
-- ✅ **Production-Ready**: FastAPI + Docker with fast inference (<100ms)
-- ✅ **Explainability**: Feature importance analysis and decision path visualization
-- ✅ **Reproducibility**: Fixed seeds, versioned artifacts, comprehensive testing
+- **LightGBM Optimization**: Fast, efficient gradient boosting with optimal hyperparameters
+- **Chaos-Aware Modeling**: Detects ecological thresholds (2400m, 2800m, 3200m) and amplifies uncertainty 2× near transition zones
+- **Uncertainty Quantification**: Explicit confidence scoring with threshold proximity detection
+- **Production-Ready**: FastAPI + Docker with fast inference (<100ms)
+- **Explainability**: Feature importance analysis and decision path visualization
+- **Reproducibility**: Fixed seeds, versioned artifacts, comprehensive testing
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source**: [Kaggle - Forest Cover Type Prediction](https://www.kaggle.com/competitions/forest-cover-type-prediction/data)
 
@@ -69,7 +69,7 @@ This project implements a **production-grade LightGBM model** to predict forest 
 
 ---
 
-## 🏆 Model Performance
+## Model Performance
 
 | Metric | Value |
 |--------|-------|
@@ -130,15 +130,15 @@ LightGBM Parameters:
 ```
 
 **Why LightGBM**:
-- ⚡ Fastest training and inference among gradient boosting methods
-- 🎯 Excellent performance on tabular data with mixed features
-- 📊 Handles sparse soil features efficiently (73% → 5% sparsity reduction)
-- 🔧 Built-in feature importance for interpretability
-- 💾 Smaller model size for production deployment
+- Fastest training and inference among gradient boosting methods
+- Excellent performance on tabular data with mixed features
+- Handles sparse soil features efficiently (73% → 5% sparsity reduction)
+- Built-in feature importance for interpretability
+- Smaller model size for production deployment
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Forest-Type-Prediction/
@@ -195,7 +195,7 @@ Forest-Type-Prediction/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -255,7 +255,7 @@ python scripts/predict.py --input data/raw/test.csv --output submission.csv
 
 ---
 
-## 🎓 Training Pipeline
+## Training Pipeline
 
 ### Full Training Workflow
 
@@ -271,13 +271,13 @@ python tests/testLightGBM.py
 ```
 
 **What Happens in `generateLightGBM.py`**:
-1. ✅ Load data from `data/raw/train.csv`
-2. ✅ Apply preprocessing (elevation binning, aspect sin/cos, soil consolidation)
-3. ✅ 5-fold stratified cross-validation
-4. ✅ Train LightGBM with optimized hyperparameters
-5. ✅ Generate confusion matrix and classification report
-6. ✅ Save model to `models/lightgbm_model.pkl`
-7. ✅ Export evaluation metrics to `demo_reports/`
+1. Load data from `data/raw/train.csv`
+2. Apply preprocessing (elevation binning, aspect sin/cos, soil consolidation)
+3. 5-fold stratified cross-validation
+4. Train LightGBM with optimized hyperparameters
+5. Generate confusion matrix and classification report
+6. Save model to `models/lightgbm_model.pkl`
+7. Export evaluation metrics to `demo_reports/`
 
 ### Model Training Output
 
@@ -382,7 +382,7 @@ curl http://localhost:8000/health
 
 ---
 
-## 🔍 Explainability
+## Explainability
 
 ### Feature Importance Analysis
 
@@ -542,7 +542,7 @@ if near_threshold:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -563,7 +563,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 👥 Team Roles
+## Team Roles
 
 ### Development Team
 
@@ -597,13 +597,13 @@ This project follows an **Agile-Kanban** methodology with rotating pair programm
 ---
 
 ---
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Kaggle** for the Forest Cover Type dataset
 - **Roosevelt National Forest** (USGS) for original cartographic data
@@ -614,7 +614,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📚 References
+## References
 
 1. Blackard, J. A., & Dean, D. J. (1999). *Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types*. Computers and Electronics in Agriculture, 24(3), 131-151.
 
@@ -626,4 +626,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ If this project helped you, please star the repository!**
+**If this project helped you, please star the repository!**
