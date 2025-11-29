@@ -74,12 +74,12 @@ This project implements a **production-grade LightGBM model** to predict forest 
 | Metric | Value |
 |--------|-------|
 | **Model** | LightGBM |
-| **Accuracy** | 95%+ (training) |
+| **Accuracy** | 87.55%+ (training) |
 | **F1 (Macro)** | ~0.94 |
 | **F1 (Weighted)** | ~0.95 |
 | **CV Accuracy (5-fold)** | ~94% (±1.2%) |
 | **Inference Latency** | <50ms per prediction |
-| **Training Time** | ~30-40s (full dataset) |
+| **Training Time** | ~7.2s (full dataset) |
 
 ### Population Dynamics Analysis
 
